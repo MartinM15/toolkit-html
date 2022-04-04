@@ -1,0 +1,49 @@
+.fa-facebook-square a{
+    display: none;
+  }
+  .fas, .fa-brands{
+    display: inline-block;
+    font-size: 1.2em;
+    color: #ffff;
+    float: right;
+    padding: 4px;
+  }
+  .fas:hover, .fa-brands:hover{
+  opacity: 0.5;
+  }
+
+  .mix {
+    position: relative;
+   
+  }
+  .mix:hover img{
+
+   filter: brightness(115%);
+   
+  }
+  .mix img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .product-links {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+    width: 100%;
+    opacity: 0;
+    transition: 1.0s ease;
+    background-color: #000f9f;
+  }
+  
+  .mix:hover .product-links {
+    opacity: 1;
+  }
+  
+  
