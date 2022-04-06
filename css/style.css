@@ -356,7 +356,7 @@ xfilter
   left: 0;
   height: 50px;
   width: 100%;
-  background-color: #639AFC;
+  background-color: #A241D1;
   z-index: 2;
 }
 .cd-filter form {
@@ -373,7 +373,7 @@ xfilter
   font-size: 1.3rem;
   text-align: center;
   background: #A241D1;
-  opacity: .9;
+  opacity: 0.9;
   -webkit-transition: opacity 0.3s;
   -moz-transition: opacity 0.3s;
   transition: opacity 0.3s;
@@ -381,8 +381,10 @@ xfilter
 }
 .no-touch .cd-filter .cd-close:hover {
   background: transparent;
-  color: #A241D1;
+  color: white;
+  font-weight: 800;
 }
+
 .cd-filter.filter-is-visible {
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
