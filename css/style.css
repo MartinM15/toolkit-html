@@ -22,7 +22,7 @@ body {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   color: #639AFC35;
-  background-color: #e7e7e7;
+  background-color: #f8f8f8;
 }
 
 a {
@@ -258,7 +258,7 @@ xgallery
 }
 .cd-gallery li {
   margin-bottom: 1.6em;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 4px rgba(162, 65, 209, 0.2);
   display: none;
 }
 .cd-gallery li.gap {
@@ -272,10 +272,17 @@ xgallery
   width: 100%;
   z-index: -99;
 }
+.cd-fail-message{
+  font-size: 2.5em;
+  color: #A241D1;
+  font-weight: 600;
+
+}
 .cd-gallery .cd-fail-message {
   display: none;
   text-align: center;
 }
+
 @media only screen and (min-width: 768px) {
   .cd-gallery {
     padding: 40px 3%;
@@ -495,7 +502,7 @@ xcustom form elements
   font-family: "Open Sans", sans-serif;
   border-radius: 0;
   background-color: #ffffff;
-  border: 2px solid #e6e6e6;
+  border: 2px solid #A241D1;
 }
 .cd-filter-block input[type='search'],
 .cd-filter-block input[type='text'],
@@ -513,13 +520,13 @@ xcustom form elements
 .cd-filter-block input[type='text']:focus,
 .cd-filter-block select:focus {
   outline: none;
-  background-color: #ffffff;
+  background-color: rgb(165, 65, 209,0.5);
   border-color: #639AFC;
 }
 .cd-filter-block input[type='search'] {
   /* custom style for the search element */
   border-color: transparent;
-  background-color: #e6e6e6;
+  background-color: rgb(165, 65, 209,0.5);
   /* prevent jump - ios devices */
   font-size: 1.6rem !important;
 }
@@ -621,13 +628,13 @@ xcustom form elements
   /* check mark style for radio buttons */
   width: 6px;
   height: 6px;
-  background-color: #ffffff;
+  background-color: rgb(165, 65, 209,0.5);
   left: 5px;
 }
 .cd-filter-block input[type=radio]:checked + label::before,
 .cd-filter-block input[type=checkbox]:checked + label::before {
-  border-color: #639AFC;
-  background-color: #639AFC;
+  border-color: #A241D1;
+  background-color: rgb(165, 65, 209,0.5);
 }
 .cd-filter-block input[type=radio]:checked + label::after,
 .cd-filter-block input[type=checkbox]:checked + label::after {
