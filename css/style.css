@@ -105,7 +105,7 @@ xtab-filter
 -------------------------------- */
 .cd-tab-filter-wrapper {
   background-color: #ffffff;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 1px rgba(162, 65, 209, 0.08);
   z-index: 1;
 }
 .cd-tab-filter-wrapper:after {
@@ -520,13 +520,13 @@ xcustom form elements
 .cd-filter-block input[type='text']:focus,
 .cd-filter-block select:focus {
   outline: none;
-  background-color: rgb(165, 65, 209,0.5);
+  background-color: rgb(165, 65, 209,0.2);
   border-color: #639AFC;
 }
 .cd-filter-block input[type='search'] {
   /* custom style for the search element */
   border-color: transparent;
-  background-color: rgb(165, 65, 209,0.5);
+  background-color: rgb(165, 65, 209,0.2);
   /* prevent jump - ios devices */
   font-size: 1.6rem !important;
 }
@@ -628,13 +628,13 @@ xcustom form elements
   /* check mark style for radio buttons */
   width: 6px;
   height: 6px;
-  background-color: rgb(165, 65, 209,0.5);
+  background-color: rgb(165, 65, 209,0.4);
   left: 5px;
 }
 .cd-filter-block input[type=radio]:checked + label::before,
 .cd-filter-block input[type=checkbox]:checked + label::before {
   border-color: #A241D1;
-  background-color: rgb(165, 65, 209,0.5);
+  background-color: rgb(165, 65, 209,0.4);
 }
 .cd-filter-block input[type=radio]:checked + label::after,
 .cd-filter-block input[type=checkbox]:checked + label::after {

@@ -28,8 +28,13 @@
 						<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
 					</li> 
 					<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
-					<li class="filter" data-filter=".top10"><a href="#0" data-type="top10">Top 10</a></li>
-					<li class="filter" data-filter=".top20"><a href="#0" data-type="top20">Top 20</a></li>
+					<li class="filter" data-filter=".top20"><a href="#0" data-type="top20">Audio</a></li>
+					<li class="filter" data-filter=".top20"><a href="#0" data-type="top20">Digital</a></li>
+					<li class="filter" data-filter=".top10"><a href="#0" data-type="top10">Graphic</a></li>
+					<li class="filter" data-filter=".top10"><a href="#0" data-type="top10">Presentation</a></li>
+					<li class="filter" data-filter=".top10"><a href="#0" data-type="top10">Print</a></li>
+					<li class="filter" data-filter=".top20"><a href="#0" data-type="top20">Video</a></li>
+	
 				</ul> <!-- cd-filters -->
 			</div> <!-- cd-tab-filter -->
 		</div> <!-- cd-tab-filter-wrapper -->
@@ -157,6 +162,20 @@
 						<input type="search" placeholder="Try top10...">
 					</div> <!-- cd-filter-content -->
 				</div> <!-- cd-filter-block -->
+				<div class="cd-filter-block select-language">
+					<h4>Language</h4>
+					
+					<div class="cd-filter-content">
+						<div class="cd-select cd-filters">
+							<select class="filter" name="selectThis" id="selectThis">
+								<option value="">Choose an option</option>
+								<option value=".English">English</option>
+								<option value=".Español">Español</option>								
+							</select>
+						</div> <!-- cd-select -->
+					</div> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+				
 
 				<div class="cd-filter-block">
 					<h4>Related to</h4>
@@ -197,7 +216,7 @@
 				</div> <!-- cd-filter-block -->
 
 				<div class="cd-filter-block">
-					<h4>Select Category</h4>
+					<h4>Category</h4>
 					
 					<div class="cd-filter-content">
 						<div class="cd-select cd-filters">
@@ -232,8 +251,8 @@
 							<label class="radio-label" for="radio3">Printable</label>
 						</li>
 						
-					</ul>  cd-filter-content 
-				</div> cd-filter-block -->
+					</ul> <!-- cd-filter-content-->
+				</div><!-- cd-filter-block -->
 			</form>
 
 			<a href="#0" class="cd-close">Close</a>

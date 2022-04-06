@@ -11,7 +11,9 @@
   .fas:hover, .fa-brands:hover{
   opacity: 0.5;
   }
-
+.radio-label, .checkbox-label{
+  color: black;
+}
   .mix {
     position: relative;
    
@@ -45,5 +47,4 @@
   .mix:hover .product-links {
     opacity: 1;
   }
-  
   
