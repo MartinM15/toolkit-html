@@ -1,3 +1,25 @@
+.box-toolkit-content{
+  text-align: center !important;
+  background: #f0f0f0;
+background-repeat: no-repeat;
+  min-height: 300px !important;
+padding: 15px;
+margin: 0 auto;
+overflow: hidden;
+  background-size: cover !important;
+ max-height: 1px !important;
+}
+.box-toolkit-content img{
+  height: 285px !important;
+  width: 100% !important;
+  object-fit: contain !important;
+  transition: all ease 2.0s;
+}
+.box-toolkit-content:hover img{
+  -webkit-transform:scale(1.05);
+	transform:scale(1.05);
+}
+
 .fa-facebook-square a{
     display: none;
   }
