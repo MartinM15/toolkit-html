@@ -9,7 +9,7 @@ overflow: hidden;
   background-size: cover !important;
  max-height: 1px !important;
 }
-.box-toolkit-content img{
+.box-toolkit-content img, .box-toolkit-content video{
   height: 285px !important;
   width: 100% !important;
   object-fit: contain !important;
