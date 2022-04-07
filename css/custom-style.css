@@ -17,6 +17,7 @@
   .mix {
     position: relative;
    
+   min-height: 50px;
   }
   .mix:hover img{
 
