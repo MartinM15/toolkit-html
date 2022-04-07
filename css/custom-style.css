@@ -92,3 +92,5 @@ overflow: hidden;
   /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #A241D1;
+  
+}

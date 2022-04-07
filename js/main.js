@@ -1,5 +1,22 @@
 jQuery(document).ready(function($){
-	//open/close lateral filter
+	//open/close lateral filter	
+jQuery(".product-links a").click(function(event){
+		event.preventDefault();
+
+                //popup 
+                var width  = 575,
+                    height = 520,
+                    left   = (jQuery(window).width()  - width)  / 2,
+                    top    = (jQuery(window).height() - height) / 2,
+                    opts   = "status=1" +
+                        ",width="  + width  +
+                        ",height=" + height +
+                        ",top="    + top    +
+                        ",left="   + left;
+
+                window.open(jQuery(this).attr("href"), "share", opts);
+        
+	});
 
 	triggerFilter(true);
 	$('.cd-filter-trigger').on('click', function(){
