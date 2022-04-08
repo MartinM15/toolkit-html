@@ -59,6 +59,9 @@ Main Components
 .cd-main-content {
   position: relative;
   min-height: 100vh;
+  border: 1px solid;
+  border-bottom: #A241D1;
+  border-top: #A241D1;
 }
 .cd-main-content:after {
   content: "";
