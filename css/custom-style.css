@@ -6,8 +6,17 @@ background-repeat: no-repeat;
 padding: 15px;
 margin: 0 auto;
 overflow: hidden;
+width: 100% !important;
+
   background-size: cover !important;
  max-height: 1px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .box-toolkit-content{
+
+   
+  }
 }
 .box-toolkit-content img, .box-toolkit-content video{
   height: 285px !important;
