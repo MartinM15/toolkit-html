@@ -18,7 +18,7 @@ jQuery(".product-links a").click(function(event){
         
 	});
 
-	triggerFilter(true);
+
 	$('.cd-filter-trigger').on('click', function(){
 		triggerFilter(true);
 	});
@@ -79,14 +79,6 @@ jQuery(".product-links a").click(function(event){
 			scrollTop = $(window).scrollTop();
 		( scrollTop >= offsetTop ) ? $('.cd-main-content').addClass('is-fixed') : $('.cd-main-content').removeClass('is-fixed');
 	}
-
-	/************************************
-		MitItUp filter settings
-		More details: 
-		https://mixitup.kunkalabs.com/
-		or:
-		http://codepen.io/patrickkunka/
-	*************************************/
 
 	buttonFilter.init();
 	$('.cd-gallery ul').mixItUp({
