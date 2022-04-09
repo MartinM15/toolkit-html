@@ -409,11 +409,12 @@ xfilter
     padding: 70px 10%;
   }
 }
+.cd-filter-trigger {
+  color: #A241D1 !important;
 
+}
 .cd-filter-trigger {
   padding-right: 10px !important;
-
-  color: white !important;
   position: absolute;
   top: 0;
   left: 0;
@@ -425,9 +426,9 @@ xfilter
   text-indent: 100%;
   color: transparent;
   white-space: nowrap;
-  background: white url("../img/cd-icon-filter.svg") no-repeat center center;
+  background: transparent url("../img/cd-icon-filter.svg") no-repeat center center;
   z-index: 3;
-  background-color: #A241D1;
+  
 }
 .cd-filter-trigger.filter-is-visible {
   pointer-events: none;
@@ -448,10 +449,10 @@ xfilter
     transition: color 0.3s;
   }
   .no-touch .cd-filter-trigger:hover {
-    color: #639AFC;
+    color: rgba(162, 65, 209, 0.5);
   }
   .cd-filter-trigger.filter-is-visible, .cd-filter-trigger.filter-is-visible:hover {
-    color: #ffffff;
+    color: #ffffff !important;
   }
 }
 
