@@ -448,6 +448,10 @@ xfilter
     -moz-transition: color 0.3s;
     transition: color 0.3s;
   }
+  .cd-filter-trigger {
+    color: #9a9a9a !important;
+  
+  }
   .no-touch .cd-filter-trigger:hover {
     color: rgba(162, 65, 209, 0.5);
   }
