@@ -1,6 +1,11 @@
 
 jQuery(document).ready(function($){
 splitbee.init()
+
+splitbee.track("manifesto")
+splitbee.track("briefingbook")
+splitbee.track("bguides")
+
 //Datasets botones
 splitbee.track("dataseten22-d")
 splitbee.track("dataseten22-f")
@@ -220,7 +225,7 @@ splitbee.track("vidpride21-f")
 splitbee.track("vidpride21-l")
 splitbee.track("vidpride21-t")
 
-//splitbee.track("vidsup21 Events
+//splitbee.track(" infovidwelat21 Events
 splitbee.track("infovidwelat21-d")
 splitbee.track("infovidwelat21-f")
 splitbee.track("infovidwelat21-l")
@@ -234,16 +239,16 @@ splitbee.track("vidyoung21-l")
 splitbee.track("vidyoung21-t")
 
 //splitbee.track("vidwom Events
-splitbee.track("vidwom-d")
-splitbee.track("vidwom-f")
-splitbee.track("vidwom-l")
-splitbee.track("vidwom-t")
+splitbee.track("vidbttplace-d")
+splitbee.track("vidbttplace-f")
+splitbee.track("vidbttplace-l")
+splitbee.track("vidbttplace-t")
 
 //splitbee.track("vidwom Events
-splitbee.track("vidwom-d")
-splitbee.track("vidwom-f")
-splitbee.track("vidwom-l")
-splitbee.track("vidwom-t")
+splitbee.track("viddiamuertos-d")
+splitbee.track("viddiamuertos-f")
+splitbee.track("viddiamuertos-l")
+splitbee.track("viddiamuertos-t")
 
 //splitbee.track("vidwom Events
 splitbee.track("vidwom-d")
@@ -1062,16 +1067,18 @@ splitbee.track("ban02sp-l")
 splitbee.track("ban02sp-t")
 
 //splitbee.track("ban02en Events
-splitbee.track("ban02en-d")
-splitbee.track("ban02en-f")
-splitbee.track("ban02en-l")
-splitbee.track("ban02en-t")
+splitbee.track("ban03en-d")
+splitbee.track("ban03en-f")
+splitbee.track("ban03en-l")
+splitbee.track("ban03en-t")
 
-//splitbee.track("stbatch Events
-splitbee.track("ban02sp-d")
-splitbee.track("stbatch-f")
-splitbee.track("stbatch-l")
-splitbee.track("stbatch-t")
+//splitbee.track("ban02en Events
+splitbee.track("ban03sp-d")
+splitbee.track("ban03sp-f")
+splitbee.track("ban03sp-l")
+splitbee.track("ban03sp-t")
+
+
 
 //splitbee.track("stbatch Events
 splitbee.track("stbatch-d")
@@ -1080,76 +1087,76 @@ splitbee.track("stbatch-l")
 splitbee.track("stbatch-t")
 
 //stsplitbee.track("gen01 Events
-stsplitbee.track("gen01-d")
-stsplitbee.track("gen01-f")
-stsplitbee.track("gen01-l")
-stsplitbee.track("gen01-t")
+stsplitbee.track("stgen01-d")
+stsplitbee.track("stgen01-f")
+stsplitbee.track("stgen01-l")
+stsplitbee.track("stgen01-t")
 
 //stsplitbee.track("gen02 Events
-stsplitbee.track("gen02-d")
-stsplitbee.track("gen02-f")
-stsplitbee.track("gen02-l")
-stsplitbee.track("gen02-t")
+stsplitbee.track("stgen02-d")
+stsplitbee.track("stgen02-f")
+stsplitbee.track("stgen02-l")
+stsplitbee.track("stgen02-t")
 
-//splitbee.track("sb01en Events
-splitbee.track("sb01en-d")
-splitbee.track("sb01en-f")
-splitbee.track("sb01en-l")
-splitbee.track("sb01en-t")
+//splitbee.track("cb01en Events
+splitbee.track("cb01en-d")
+splitbee.track("cb01en-f")
+splitbee.track("cb01en-l")
+splitbee.track("cb01en-t")
 
-//splitbee.track("sb01enpdf Events
-splitbee.track("sb01enpdf-d")
-splitbee.track("sb01enpdf-f")
-splitbee.track("sb01enpdf-l")
-splitbee.track("sb01enpdf-t")
+//splitbee.track("cb01enpdf Events
+splitbee.track("cb01enpdf-d")
+splitbee.track("cb01enpdf-f")
+splitbee.track("cb01enpdf-l")
+splitbee.track("cb01enpdf-t")
 
-//splitbee.track("sb02en Events
-splitbee.track("sb02en-d")
-splitbee.track("sb02en-f")
-splitbee.track("sb02en-l")
-splitbee.track("sb02en-t")
+//splitbee.track("cb02en Events
+splitbee.track("cb02en-d")
+splitbee.track("cb02en-f")
+splitbee.track("cb02en-l")
+splitbee.track("cb02en-t")
 
-//splitbee.track("sb02enpdf Events
-splitbee.track("sb02enpdf-d")
-splitbee.track("sb02enpdf-f")
-splitbee.track("sb02enpdf-l")
-splitbee.track("sb02enpdf-t")
+//splitbee.track("cb02enpdf Events
+splitbee.track("cb02enpdf-d")
+splitbee.track("cb02enpdf-f")
+splitbee.track("cb02enpdf-l")
+splitbee.track("cb02enpdf-t")
 
-//splitbee.track("sb03en Events
-splitbee.track("sb03en-d")
-splitbee.track("sb03en-f")
-splitbee.track("sb03en-l")
-splitbee.track("sb03en-t")
+//splitbee.track("cb03en Events
+splitbee.track("cb03en-d")
+splitbee.track("cb03en-f")
+splitbee.track("cb03en-l")
+splitbee.track("cb03en-t")
 
-//splitbee.track("sb03enpdf Events
-splitbee.track("sb03enpdf-d")
-splitbee.track("sb03enpdf-f")
-splitbee.track("sb03enpdf-l")
-splitbee.track("sb03enpdf-t")
+//splitbee.track("cb03enpdf Events
+splitbee.track("cb03enpdf-d")
+splitbee.track("cb03enpdf-f")
+splitbee.track("cb03enpdf-l")
+splitbee.track("cb03enpdf-t")
 
-//splitbee.track("sb04en Events
-splitbee.track("sb04en-d")
-splitbee.track("sb04en-f")
-splitbee.track("sb04en-l")
-splitbee.track("sb04en-t")
+//splitbee.track("cb04en Events
+splitbee.track("cb04en-d")
+splitbee.track("cb04en-f")
+splitbee.track("cb04en-l")
+splitbee.track("cb04en-t")
 
-//splitbee.track("sb04enpdf Events
-splitbee.track("sb04enpdf-d")
-splitbee.track("sb04enpdf-f")
-splitbee.track("sb04enpdf-l")
-splitbee.track("sb04enpdf-t")
+//splitbee.track("cb04enpdf Events
+splitbee.track("cb04enpdf-d")
+splitbee.track("cb04enpdf-f")
+splitbee.track("cb04enpdf-l")
+splitbee.track("cb04enpdf-t")
 
-//splitbee.track("sb05en Events
-splitbee.track("sb05en-d")
-splitbee.track("sb05en-f")
-splitbee.track("sb05en-l")
-splitbee.track("sb05en-t")
+//splitbee.track("cb05en Events
+splitbee.track("cb05en-d")
+splitbee.track("cb05en-f")
+splitbee.track("cb05en-l")
+splitbee.track("cb05en-t")
 
-//splitbee.track("sb05enpdf Events
-splitbee.track("sb05enpdf-d")
-splitbee.track("sb05enpdf-f")
-splitbee.track("sb05enpdf-l")
-splitbee.track("sb05enpdf-t")
+//splitbee.track("cb05enpdf Events
+splitbee.track("cb05enpdf-d")
+splitbee.track("cb05enpdf-f")
+splitbee.track("cb05enpdf-l")
+splitbee.track("cb05enpdf-t")
 
 //splitbee.track("vin01 Events
 splitbee.track("vin01-d")
@@ -1168,6 +1175,12 @@ splitbee.track("vin03-d")
 splitbee.track("vin03-f")
 splitbee.track("vin03-l")
 splitbee.track("vin03-t")
+
+//splitbee.track("mat Events
+splitbee.track("PSA-d")
+splitbee.track("PSA-f")
+splitbee.track("PSA-l")
+splitbee.track("PSA-t") 
 
 //splitbee.track("mat Events
 splitbee.track("mat-d")
