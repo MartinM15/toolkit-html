@@ -16,7 +16,7 @@ splitbee.track("bguides-t")
 
 
 
-//splitbee.track("infoafro21 Events
+//splitbee.track("infoafro21 Events*
 splitbee.track("infoafro21-d")
 splitbee.track("infoafro21-f")
 splitbee.track("infoafro21-l")
@@ -221,10 +221,11 @@ splitbee.track("vidpride21-l")
 splitbee.track("vidpride21-t")
 
 //splitbee.track("vidsup21 Events
-splitbee.track("vidsup21-d")
-splitbee.track("vidsup21-f")
-splitbee.track("vidsup21-l")
-splitbee.track("vidsup21-t")
+splitbee.track("infovidwelat21-d")
+splitbee.track("infovidwelat21-f")
+splitbee.track("infovidwelat21-l")
+splitbee.track("infovidwelat21-t")
+splitbee.track("infovidwelat21-d")
 
 //splitbee.track("vidyoung21 Events
 splitbee.track("vidyoung21-d")
@@ -1259,3 +1260,4 @@ splitbee.track("newsletter-l")
 splitbee.track("newsletter-t")
 
 });
+
